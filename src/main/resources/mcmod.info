@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "chickenpluck",
+  "name": "Chicken Pluck",
+  "description": "Lets you pluck feathers off of chickens! You monster! >:(",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Redfoxmoon"],
+  "credits": "MinecraftForge and FML <3!",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
