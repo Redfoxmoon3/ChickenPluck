@@ -15,8 +15,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod(modid = ChickenPluck.MODID, version = ChickenPluck.VERSION, acceptedMinecraftVersions = "[1.10.2]")
-public class ChickenPluck
-{
+public class ChickenPluck {
+
     public static final String MODID = "chickenpluck";
     public static final String VERSION = "1.0";
     
@@ -26,9 +26,9 @@ public class ChickenPluck
     public static ChickenPluck instance;
     
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-    	MinecraftForge.EVENT_BUS.register(this);
+    public void init(FMLInitializationEvent event) {
+    	
+		MinecraftForge.EVENT_BUS.register(this);
     }
 	
 	@SubscribeEvent
